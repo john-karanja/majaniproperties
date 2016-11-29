@@ -1,16 +1,6 @@
 body {
 	line-height: 1.7;
 }
-.about {
-	margin-bottom: 60px;
-	background-color: #f2f2f2;
-}
-.about .section-headline, .services .section-headline {
-	margin-bottom: 60px;
-}
-.services .row {
-	margin-bottom: 100px;
-}
 /***********************
 Typography
 ************************/
@@ -19,28 +9,41 @@ h1,h2,h3 {
 }
 p {
 	font-family: 'Cantarell', sans-serif,helvetica;
+	
 }
-.section-headline {
-	text-align: center;
-	background-color: #31E17C;
-	padding: 1px;
+.section-headline h2  {
+	border-bottom: 2px solid #3bb34a;
+	margin-top: 30px;
+	font-size: 3em;
+}
+.services .section-headline h2 {
+	margin-bottom: 50px;
+}
+span.green-text {
+	color: #3bb34a;
 }
 .section-text h3 {
 	font-size: 2em;
+	display: inline-block;
+	border-right: 3px solid #3bb34a;
+	border-left: 3px solid #3bb34a;
+	padding: 0 4px;
 }
 .section-text p {
-	font-size: 1.2em;
-	padding-top: 10px
+	font-size: 1.105em;
+	padding-top: 10px;
+	color: #8b948e;
 }
 /***********************
 Images
 ************************/
 section img {
 	max-width: 100%;
-	
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
 }
 .about img {
-	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.3);
+	height: 500px;
 }
 
 /***********************
@@ -48,12 +51,12 @@ Navbar
 ************************/
 .navbar {
 	border-radius: 0;
-	background-color: #fff;
+	background-color: transparent;
 	border: none;
 	
 }
 .navabr-brand img {
-	width: 130px;
+	width: 150px;
 	margin: 20px 50px;
 
 }
@@ -62,12 +65,29 @@ Navbar
 Jumbotron
 ************************/
 .jumbotron {
-	background-color: #31e17c;
+	background: linear-gradient( rgba(59, 179, 74, 0.4), 
+		rgba(59, 179, 74, 0.55) ),url('../Images/hero.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: 50% 100%;
 	padding-top: 0;
 	margin-bottom: 0;
-	height: 450px;;
+	height: 650px;
 }
 .jumbotron header {
 	padding-left: 50px;
+	padding-top: 130px;
 	color: #f9fcfa;
 }
+/***********************
+Sections
+************************/
+.about {
+	padding: 100px 0; 
+}
+.services .row {
+	margin-bottom: 80px;
+}
+
+
+
