@@ -1,0 +1,73 @@
+body {
+	line-height: 1.7;
+}
+.about {
+	margin-bottom: 60px;
+	background-color: #f2f2f2;
+}
+.about .section-headline, .services .section-headline {
+	margin-bottom: 60px;
+}
+.services .row {
+	margin-bottom: 100px;
+}
+/***********************
+Typography
+************************/
+h1,h2,h3 {
+	font-family: 'Fjalla One', sans-serif,helvetica;
+}
+p {
+	font-family: 'Cantarell', sans-serif,helvetica;
+}
+.section-headline {
+	text-align: center;
+	background-color: #31E17C;
+	padding: 1px;
+}
+.section-text h3 {
+	font-size: 2em;
+}
+.section-text p {
+	font-size: 1.2em;
+	padding-top: 10px
+}
+/***********************
+Images
+************************/
+section img {
+	max-width: 100%;
+	
+}
+.about img {
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+}
+
+/***********************
+Navbar
+************************/
+.navbar {
+	border-radius: 0;
+	background-color: #fff;
+	border: none;
+	
+}
+.navabr-brand img {
+	width: 130px;
+	margin: 20px 50px;
+
+}
+
+/***********************
+Jumbotron
+************************/
+.jumbotron {
+	background-color: #31e17c;
+	padding-top: 0;
+	margin-bottom: 0;
+	height: 450px;;
+}
+.jumbotron header {
+	padding-left: 50px;
+	color: #f9fcfa;
+}
