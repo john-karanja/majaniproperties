@@ -16,6 +16,9 @@ p {
 	margin-top: 30px;
 	font-size: 3em;
 }
+.contacts h2{
+	font-size: 2.5em;
+}
 .services .section-headline h2 {
 	margin-bottom: 50px;
 }
@@ -39,11 +42,17 @@ Images
 ************************/
 section img {
 	max-width: 100%;
-	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
 }
 .about img {
-	box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.2);
 	height: 500px;
+	border-radius: 4px;
+}
+.contacts img {
+	width: 550px;
+	box-shadow:  20px 20px 20px 10px rgba(0,0,0,0.2);
+	margin-top: 10px;
+	border-radius: 4px;
 }
 
 /***********************
@@ -51,9 +60,8 @@ Navbar
 ************************/
 .navbar {
 	border-radius: 0;
-	background-color: transparent;
-	border: none;
-	
+	background-color:transparent;
+	border: none;	
 }
 .navabr-brand img {
 	width: 150px;
@@ -65,19 +73,29 @@ Navbar
 Jumbotron
 ************************/
 .jumbotron {
-	background: linear-gradient( rgba(59, 179, 74, 0.4), 
-		rgba(59, 179, 74, 0.55) ),url('../Images/hero.jpeg');
+	background: linear-gradient( rgba(59, 179, 74, 0.1), 
+		rgba(59, 179, 74, 0.35) ),url('../Images/pexels-photo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-	background-position: 50% 100%;
+	background-position: 50% 40%;
 	padding-top: 0;
 	margin-bottom: 0;
 	height: 650px;
 }
 .jumbotron header {
-	padding-left: 50px;
-	padding-top: 130px;
+	margin-left: 40px;
+	margin-top: 140px;
 	color: #f9fcfa;
+	position: relative;
+	border-bottom: 2px solid;
+
+}
+.jumbotron h1 {
+	font-weight: normal;
+	font-size: 3.5em;
+}
+.jumbotron p {
+	font-weight: 400;
 }
 /***********************
 Sections
@@ -87,6 +105,16 @@ Sections
 }
 .services .row {
 	margin-bottom: 80px;
+}
+.contacts {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background: linear-gradient( rgba(59, 179, 74, 0.6), 
+		rgba(59, 179, 74, 0.6) ),url('../Images/pexels-photo.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	text-align: center;
+	color: #fff;
 }
 
 
